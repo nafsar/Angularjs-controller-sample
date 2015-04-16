@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="sportApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - not using $scope</title>
+  <script src="../lib/angular/angular.min.js"></script>
+ 
+<script src="app.js"></script>
+
+  
+  
+  
+
+  
+</head>
+<body >
+  <div ng-controller="SportController as store">
+ <button ng-click="store.greatSport()">Exercise</button>
+ <button ng-click="store.funSport()">Fun exercise</button>
+ <p>Bicycling is a {{store.idea}} {{store.goodIdea()}}</p>
+</div>
+
+</body>
+</html>
